@@ -1,0 +1,151 @@
+@charset "gb2312";
+body {
+	FONT-FAMILY: "宋体";
+	line-height: 150%;
+	margin: 0;
+	background-color: #ECF5FF;
+	font-size: 12px;
+	color: #0066CC;
+	SCROLLBAR-FACE-color: #8CC6FF; /*立体滚动条的颜色*/
+	SCROLLBAR-HIGHLIGHT-color: #8CC6FF; /*滚动条空白部分的颜色*/
+	SCROLLBAR-SHADOW-color: #E2F3F1; /*立体滚动条阴影的颜色*/
+	SCROLLBAR-3DLIGHT-color: #8CC6FF; /*立体滚动条亮边的颜色*/
+	SCROLLBAR-ARROW-color: #8CC6FF; /*三角箭头的颜色*/
+	SCROLLBAR-TRACK-color: #BFDFFF; /*立体滚动条背景颜色*/
+	SCROLLBAR-DARKSHADOW-color: #8CC6FF; /*立体滚动条强阴影的颜色*/
+}
+body, form {
+	margin: 0;
+}
+a {
+	text-decoration: none;
+	color: #0066CC;
+	font-size: 12px;
+	font-family: arial;
+}
+a:hover {
+	color: #0066CC;
+	text-decoration: underline;
+}
+td {
+	font-size: 12px;
+	padding: 2px 4px;
+	line-height: 22px;
+}
+th {
+	font-size: 12px;
+}
+select, input, button {
+	font-size: 12px;
+	height: 20px;
+	margin: 0;
+	border: #BBDDFF solid 1px;
+	background-color: #fff;
+}
+label {
+	font-size: 12px;
+	color: #FF0000;
+}
+span {
+	font-size: 12px;
+	color: #8080C0;
+}
+table {
+	border-collapse: collapse;
+}
+
+.XHList {
+   background:url("../images/menu_title.gif");
+   height:32px;
+   font-weight:bold;
+   color:#5F8EB9;
+}
+
+.XHList2 {
+   background:url("../images/menu_title_over.gif");
+   height:32px;
+   font-weight:bold;
+   color:#0066CC;
+   text-indent:1.8em;
+}
+
+/*
+.XHList {
+	background-color: #A4D1FF;
+	color: #0066CC;
+	font-weight: bold;
+	text-indent: 10px;
+}
+.XHList2 {
+	background-color: #A4D1FF;
+	color: #FFFFFF;
+	text-indent: 10px;
+	font-weight: bold;
+	cursor: hand;
+}
+*/
+#TableTitle1 {
+	border:1px solid #FAD446;
+	background:#FFFFEB;
+	font-weight:bold;
+	color:#3B62B0;
+}
+
+#TableTitle2 {
+   background:url("../images/TitleBG.gif") repeat-x;
+   height:30px;
+   font-weight:bold;
+   color:#5F81AF;
+   letter-spacing:1px;
+}
+
+
+.out_TableTitle3 {
+	background:#E1F0FF;
+}
+.over_TableTitle3 {
+	background:#D4E8F7;
+}
+#TableTitle3 a:link		{ Color: #008000; Text-Decoration: None; }
+#TableTitle3 a:visited	{ Color: #008000; Text-Decoration: None; }
+#TableTitle3 a:hover	{ Color: #C13B0B; Text-Decoration: Underline; }
+#TableTitle3 a:active	{ Color: #415586; Text-Decoration: None; }
+
+.MenuTitle1 a {
+   font-weight:bold;
+   color:#5F8EB9;
+}
+
+.MenuTitle1 a:link		{ Color: #008000; Text-Decoration: None; }
+.MenuTitle1 a:visited	{ Color: #008000; Text-Decoration: None; }
+.MenuTitle1 a:hover	    { Color: #C13B0B; Text-Decoration: Underline; }
+.MenuTitle1 a:active	{ Color: #5F8EB9; Text-Decoration: None; }
+
+#MenuTitleTop {
+   background:url("../images/menu_title.gif");
+   height:32px;
+   font-weight:bold;
+   color:#5F8EB9;
+}
+
+.btn {
+	border:1px solid #70B1CF;
+	background:url("../images/btnbg.gif") repeat-x;
+	color:#506B9E;
+	font-weight:bold;
+	padding:3px 10px;
+	height:22px;
+	letter-spacing:1px;
+}
+
+a.blue {
+	text-decoration: none;
+	color: #0066CC;
+	font-size: 12px;
+	font-family: arial;
+	font-weight:bold;
+}
+a.blue:hover {
+	color: #0066CC;
+	text-decoration: underline;
+}
